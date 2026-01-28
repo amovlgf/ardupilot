@@ -1,7 +1,6 @@
 # hw definition file for processing by chibios_hwdef.py
 # for the Amovlabicf6 hardware
 
-
 # default to all pins low to avoid ESD issues
 #DEFAULTGPIO OUTPUT LOW PULLDOWN
 
@@ -171,9 +170,6 @@ PE12 LED_BLUE OUTPUT OPENDRAIN GPIO(92) HIGH
 PB11 HW_VER_REV_DRIVE OUTPUT LOW
 # PB11 HW_REV_SENS ADC1 SCALE(1)
 # PA2 HW_VER_SENS ADC1 SCALE(1)
-
-# PWM output for buzzer
-PA15 TIM2_CH1 TIM2 GPIO(77) ALARM
 
 # barometers
 BARO MS56XX I2C:0:0x76
